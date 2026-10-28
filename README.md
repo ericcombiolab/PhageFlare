@@ -2,7 +2,7 @@
 
 PhageFlare is a deep-learning framework for multilabel functional annotation of bacteriophage proteins. It uses a frozen [ESM-C 600M](https://github.com/evolutionaryscale/esm) protein language model, function-conditioned residue pooling, and optional genomic context to predict 45 functional labels. PhageFlare is designed to complement alignment- and structure-based annotation, including for proteins without significant structural matches to annotated references.
 
-This repository provides a trained checkpoint and an inference script that accepts either FASTA or JSON Lines (JSONL) input.
+This repository provides an inference script that accepts either FASTA or JSON Lines (JSONL) input. The model checkpoint is available at https://huggingface.co/charleswang335/PhageFlare.
 
 ## Requirements
 
